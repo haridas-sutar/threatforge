@@ -9,6 +9,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+threatforge_env/
 
 # Project specific
 results/
@@ -16,10 +22,12 @@ dashboard.log
 dashboard.pid
 .env
 *.log
+*.pid
 
 # AWS
 .aws/
 *.pem
+credentials
 
 # IDE
 .vscode/
@@ -30,3 +38,10 @@ dashboard.pid
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test files
+test_*
