@@ -1,0 +1,21 @@
+{
+    "scanning": {
+        "daily_scan_time": "02:00",
+        "regions": ["us-east-1", "us-west-2"],
+        "max_resources_per_scan": 1000
+    },
+    "alerts": {
+        "email_enabled": false,
+        "critical_threshold": 1,
+        "recipients": ["security-team@company.com"]
+    },
+    "dashboard": {
+        "port": 8000,
+        "host": "0.0.0.0",
+        "authentication_required": false
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "/var/log/threatforge/app.log"
+    }
+}
